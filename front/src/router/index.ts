@@ -8,12 +8,12 @@ const routes: Array<RouteRecordRaw> = [
         name: "home",
         component: HomeView,
     },
-    // {
-    //     path: "/about",
-    //     name: "about",
-    //     component: () =>
-    //         import("../views/AboutView.vue"),
-    // },
+    {
+        path: "/new",
+        name: "new",
+        component: () =>
+            import("@/views/main/NewView.vue"),
+    },
 ];
 
 const router = createRouter({
