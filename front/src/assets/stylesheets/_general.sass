@@ -14,20 +14,24 @@
     // 
     
     &.icon_small
-        min-width: 24px
-        width: 24px
-        min-height: 24px
-        height: 24px
+        min-width: 16px
+        width: 16px
+        min-height: 16px
+        height: 16px
 
-.img,
-.video
+img,
+video
     width: 100%
 
-.img
-    // 
+img
+    animation: img-appear .75s ease-in-out
 
-.video
+video
     //
+
+.text
+    &.text_medium
+        font-size: 32px
 
 // CUSTOM-INPUT
 
@@ -45,5 +49,7 @@
 // BTN
 
 .btn
+    font-weight: 700
+
     text-decoration: underline
     text-transform: uppercase

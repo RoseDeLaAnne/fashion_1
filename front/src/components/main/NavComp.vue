@@ -16,4 +16,7 @@
     align-items: center
 
     column-gap: 32px
+
+.nav__item
+    font-weight: 600
 </style>
