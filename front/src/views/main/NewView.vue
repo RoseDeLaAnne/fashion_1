@@ -60,7 +60,7 @@
                     >
                 </div>
             </div>
-            <div v-if="page === 2" class="main__box main__box_3">
+            <div v-else-if="page === 2" class="main__box main__box_3">
                 <div class="main__item">
                     <div class="main__box main__box_31">
                         <h2 class="main__item-name">Bomber Jacket 2</h2>
@@ -101,7 +101,7 @@
                     >
                 </div>
             </div>
-            <div v-if="page === 3" class="main__box main__box_3">
+            <div v-else-if="page === 3" class="main__box main__box_3">
                 <div class="main__item">
                     <div class="main__box main__box_31">
                         <h2 class="main__item-name">Bomber Jacket 3</h2>
